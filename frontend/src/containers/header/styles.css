@@ -1,5 +1,6 @@
 .headerContainer {
   background-color: #222;
+  -webkit-text-fill-color: #ff9800;
   height: 60px;
   margin-bottom: 15px;
   display: flex;
@@ -7,4 +8,8 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+}
+
+.headerContainer a {
+  color: #ff9800;
 }

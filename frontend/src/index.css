@@ -15,7 +15,7 @@
 a:-webkit-any-link{
   text-decoration:none;
   cursor: pointer;
-  color: white;
+  /*color: white;*/
 }
 
 a:-webkit-any-link:hover{

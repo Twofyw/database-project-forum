@@ -10,16 +10,16 @@ const Navlink = () => {
       <Logo />
       <div className="link">
         <Icon name="home" className="navlinkIcon" />
-        <Link to="/">Home</Link>
+        <Link to="/">首页</Link>
       </div>
       <div className="link">
         <Icon name="users" className="navlinkIcon" />
-        <Link to="/users">Users</Link>
+        <Link to="/users">用户</Link>
       </div>
-      <div className="link">
-        <Icon name="github" className="navlinkIcon" />
-        <a href="https://github.com/endiliey/rengorum">GitHub</a>
-      </div>
+      {/*<div className="link">*/}
+      {/*  <Icon name="github" className="navlinkIcon" />*/}
+      {/*  <a href="https://github.com/endiliey/rengorum">GitHub</a>*/}
+      {/*</div>*/}
     </div>
   );
 };
